@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     transition: 1s;
+    transition: 1s;
 }
+
 .main {
     width: 390px;
     height: 6480px;
@@ -11,6 +12,7 @@
     border: 1px solid red;
 
 }
+
 header {
     width: 390px;
     height: 609px;
@@ -20,8 +22,9 @@ header {
     border: 2px solid black;
     color: white;
     padding-top: 20px;
-    
+
 }
+
 header nav {
     width: 357px;
     height: 32px;
@@ -30,6 +33,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
 }
+
 header nav .img {
     width: 159px;
     height: 32px;
@@ -38,15 +42,18 @@ header nav .img {
     align-items: center;
 
 }
+
 header nav .img img {
     width: 32px;
     height: 32px;
 }
+
 header nav .img a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
+
 /* *========.box===== */
 header .box {
     width: 313px;
@@ -57,6 +64,7 @@ header .box {
     justify-content: space-between;
     margin-top: 140px;
 }
+
 header .box div {
     width: 313px;
     height: 246px;
@@ -64,6 +72,7 @@ header .box div {
     flex-direction: column;
     justify-content: space-between;
 }
+
 header .box span {
     width: 167px;
     height: 60px;
@@ -75,6 +84,7 @@ header .box span {
     font-size: 20px;
     border-radius: 50px;
 }
+
 /* !========main=1========= */
 /* !======================= */
 .main-1 {
@@ -82,6 +92,7 @@ header .box span {
     height: 1114px;
     border: 1px solid black;
 }
+
 .main-1 .box1 {
     width: 358px;
     height: 1034px;
@@ -91,6 +102,7 @@ header .box span {
     flex-direction: column;
     justify-content: space-between;
 }
+
 /* *===shop */
 .main-1 .box1 .shop {
     width: 358px;
@@ -99,6 +111,7 @@ header .box span {
     flex-direction: column;
     justify-content: space-between;
 }
+
 /* *===bir */
 .main-1 .box1 .shop .bir {
     width: 358px;
@@ -108,14 +121,17 @@ header .box span {
     border-bottom: 1px solid black;
 
 }
+
 .main-1 .box1 .shop .bir p {
     font-size: 20px;
     display: flex;
     gap: 5px;
 }
+
 .main-1 .box1 .shop .bir i {
     font-size: 20px;
 }
+
 /* *===ikki */
 .main-1 .box1 .shop .ikki {
     width: 358px;
@@ -124,9 +140,11 @@ header .box span {
     align-items: center;
     padding-left: 10px;
 }
+
 .main-1 .box1 .shop .ikki p {
     font-size: 20px;
 }
+
 /* *===uch */
 .main-1 .box1 .shop .uch {
     width: 358px;
@@ -136,6 +154,7 @@ header .box span {
     align-items: center;
 
 }
+
 .main-1 .box1 .shop .uch span {
     width: 67px;
     height: 30px;
@@ -143,12 +162,18 @@ header .box span {
     justify-content: center;
     align-items: center;
 }
- .uch .s1:hover, .uch .s2:hover, .uch .s3:hover, .uch .s4:hover, .uch .s5:hover  {
+
+.uch .s1:hover,
+.uch .s2:hover,
+.uch .s3:hover,
+.uch .s4:hover,
+.uch .s5:hover {
     border-radius: 8px;
     background-color: rgb(4, 30, 54);
     color: white;
     font-size: 20px;
 }
+
 /* *====imglar */
 .main-1 .box1 .imglar {
     width: 358px;
@@ -157,11 +182,13 @@ header .box span {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .main-1 .box1 .imglar img {
     width: 358px;
     height: 426px;
     border-radius: 10px;
 }
+
 /* !==========main-2========= */
 /* !========================= */
 .main-2 {
@@ -169,6 +196,7 @@ header .box span {
     height: 675px;
     border: 1px solid black;
 }
+
 .main-2 .box2 {
     width: 358px;
     height: 595px;
@@ -178,27 +206,32 @@ header .box span {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .main-2 .box2 .text {
     width: 358px;
     height: 34px;
 }
+
 .main-2 .box2 .text p {
     font-size: 25px;
     display: flex;
     gap: 5px;
 }
+
 /* *=====*img */
- .main-2 .box2 .img {
+.main-2 .box2 .img {
     width: 358px;
     height: 541px;
- }
- .main-2 .box2 .img .tort.rasm {
+}
+
+.main-2 .box2 .img .tort.rasm {
     width: 358px;
     height: 357px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
- }
- .main-2 .box2 .img .rasm1 {
+}
+
+.main-2 .box2 .img .rasm1 {
     width: 175px;
     height: 175px;
     background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/assest/img/odam.png);
@@ -209,17 +242,19 @@ header .box span {
     display: flex;
     justify-content: center;
     align-items: center;
- }
- .main-2 .box2 .img .rasm1 p {
+}
+
+.main-2 .box2 .img .rasm1 p {
     font-size: 25px;
     color: white;
     font-weight: 900;
- }
- /* *====rasm2 */
- .main-2 .box2 .img .rasm2 {
+}
+
+/* *====rasm2 */
+.main-2 .box2 .img .rasm2 {
     width: 175px;
     height: 175px;
-    background-image:linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/assest/img/hayvonlar.png);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/assest/img/hayvonlar.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,17 +262,19 @@ header .box span {
     display: flex;
     justify-content: center;
     align-items: center;
- }
-  .main-2 .box2 .img .rasm2 p {
+}
+
+.main-2 .box2 .img .rasm2 p {
     font-size: 25px;
     color: white;
     font-weight: 900;
- }
- /* *=====rasm3 */
-  .main-2 .box2 .img .rasm3 {
+}
+
+/* *=====rasm3 */
+.main-2 .box2 .img .rasm3 {
     width: 175px;
     height: 175px;
-    background-image:linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/assest/img/doktir.png);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/assest/img/doktir.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -245,14 +282,16 @@ header .box span {
     display: flex;
     justify-content: center;
     align-items: center;
- }
-   .main-2 .box2 .img .rasm3 p {
+}
+
+.main-2 .box2 .img .rasm3 p {
     font-size: 25px;
     color: white;
     font-weight: 900;
- }
- /* *====rasm4 */
-  .main-2 .box2 .img .rasm4 {
+}
+
+/* *====rasm4 */
+.main-2 .box2 .img .rasm4 {
     width: 175px;
     height: 175px;
     background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/assest/img/it.png );
@@ -263,13 +302,15 @@ header .box span {
     display: flex;
     justify-content: center;
     align-items: center;
- }
-    .main-2 .box2 .img .rasm4 p {
+}
+
+.main-2 .box2 .img .rasm4 p {
     font-size: 25px;
     color: white;
     font-weight: 900;
- }
- /* *======pastki */
+}
+
+/* *======pastki */
 .main-2 .box2 .img .pastki {
     width: 358px;
     height: 178px;
@@ -283,6 +324,7 @@ header .box span {
     align-items: center;
 
 }
+
 .main-2 .box2 .img .pastki p {
     font-size: 25px;
     color: white;
