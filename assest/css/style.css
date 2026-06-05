@@ -172,7 +172,6 @@ header .box span {
 .main-2 .box2 {
     width: 358px;
     height: 595px;
-    border: 1px solid black;
     margin: auto;
     margin-top: 40px;
     display: flex;
@@ -182,7 +181,6 @@ header .box span {
 .main-2 .box2 .text {
     width: 358px;
     height: 34px;
-    border: 1px solid red;
 }
 .main-2 .box2 .text p {
     font-size: 25px;
@@ -193,12 +191,10 @@ header .box span {
  .main-2 .box2 .img {
     width: 358px;
     height: 541px;
-    border: 1px solid red;
  }
  .main-2 .box2 .img .tort.rasm {
     width: 358px;
     height: 357px;
-    border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
  }
@@ -273,3 +269,22 @@ header .box span {
     color: white;
     font-weight: 900;
  }
+ /* *======pastki */
+.main-2 .box2 .img .pastki {
+    width: 358px;
+    height: 178px;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/assest/img/it1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-2 .box2 .img .pastki p {
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+}
