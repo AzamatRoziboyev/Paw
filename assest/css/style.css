@@ -85,15 +85,16 @@ header .box span {
 .main-1 .box1 {
     width: 358px;
     height: 1034px;
-    border: 1px solid red;
     margin: auto;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 /* *===shop */
 .main-1 .box1 .shop {
     width: 358px;
     height: 144px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -104,6 +105,7 @@ header .box span {
     height: 34px;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid black;
 
 }
 .main-1 .box1 .shop .bir p {
@@ -147,3 +149,42 @@ header .box span {
     color: white;
     font-size: 20px;
 }
+/* *====imglar */
+.main-1 .box1 .imglar {
+    width: 358px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-1 .box1 .imglar img {
+    width: 358px;
+    height: 426px;
+    border-radius: 10px;
+}
+/* !==========main-2========= */
+/* !========================= */
+.main-2 {
+    width: 390px;
+    height: 675px;
+    border: 1px solid black;
+}
+.main-2 .box2 {
+    width: 358px;
+    height: 595px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 40px;
+}
+.main-2 .box2 .text {
+    width: 358px;
+    height: 34px;
+    border: 1px solid red;
+}
+.main-2 .box2 .text p {
+    font-size: 25px;
+    display: flex;
+    gap: 5px;
+}
+/* *=====*img */
+ 
