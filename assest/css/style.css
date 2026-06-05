@@ -175,6 +175,9 @@ header .box span {
     border: 1px solid black;
     margin: auto;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .main-2 .box2 .text {
     width: 358px;
@@ -187,4 +190,86 @@ header .box span {
     gap: 5px;
 }
 /* *=====*img */
- 
+ .main-2 .box2 .img {
+    width: 358px;
+    height: 541px;
+    border: 1px solid red;
+ }
+ .main-2 .box2 .img .tort.rasm {
+    width: 358px;
+    height: 357px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ }
+ .main-2 .box2 .img .rasm1 {
+    width: 175px;
+    height: 175px;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/assest/img/odam.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .main-2 .box2 .img .rasm1 p {
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+ }
+ /* *====rasm2 */
+ .main-2 .box2 .img .rasm2 {
+    width: 175px;
+    height: 175px;
+    background-image:linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/assest/img/hayvonlar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+  .main-2 .box2 .img .rasm2 p {
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+ }
+ /* *=====rasm3 */
+  .main-2 .box2 .img .rasm3 {
+    width: 175px;
+    height: 175px;
+    background-image:linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/assest/img/doktir.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+   .main-2 .box2 .img .rasm3 p {
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+ }
+ /* *====rasm4 */
+  .main-2 .box2 .img .rasm4 {
+    width: 175px;
+    height: 175px;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/assest/img/it.png );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+    .main-2 .box2 .img .rasm4 p {
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+ }
