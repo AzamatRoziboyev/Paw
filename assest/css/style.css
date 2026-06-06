@@ -331,6 +331,7 @@ header .box span {
     color: white;
     font-weight: 900;
 }
+
 /* !========main-3====== */
 /* !==================== */
 .main-3 {
@@ -339,6 +340,7 @@ header .box span {
     border: 1px solid black;
 
 }
+
 .main-3 .box3 {
     width: 356px;
     height: 598px;
@@ -348,10 +350,12 @@ header .box span {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .main-3 .box3 p {
     font-size: 15px;
     color: gray;
 }
+
 .main-3 .box3 .text {
     width: 358px;
     height: 34px;
@@ -363,6 +367,7 @@ header .box span {
     display: flex;
     gap: 5px;
 }
+
 /* !=========main-4===== */
 /* !==================== */
 .main-4 {
@@ -374,6 +379,7 @@ header .box span {
     flex-direction: column;
     justify-content: space-around;
 }
+
 .main-4 .text {
     width: 387px;
     height: 34px;
@@ -385,6 +391,7 @@ header .box span {
     display: flex;
     gap: 5px;
 }
+
 .main-4 .box4 {
     width: 359px;
     height: 566px;
@@ -393,12 +400,14 @@ header .box span {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .main-4 .box4 h2 {
     width: 359px;
     height: 44px;
     display: flex;
     align-items: center;
 }
+
 .main-4 .box4 .eget {
     width: 359px;
     height: 457px;
@@ -406,12 +415,14 @@ header .box span {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .main-4 .box4 .eget .p1 {
     width: 359px;
     height: 299px;
     font-size: 18.5px;
     color: gray;
 }
+
 .main-4 .box4 .eget div {
     width: 359px;
     height: 138px;
@@ -420,13 +431,16 @@ header .box span {
     justify-content: space-between;
 
 }
+
 .main-4 .box4 .eget div h4 {
     font-size: 23px;
 
 }
+
 .main-4 .box4 .eget div p {
     font-size: 18px;
 }
+
 .main-4 .box4 button {
     width: 104px;
     height: 35px;
@@ -435,10 +449,12 @@ header .box span {
     color: white;
     border-radius: 5px;
 }
+
 .main-4 .box4 button:hover {
     background-color: blue;
     font-size: 17px;
 }
+
 /* !========main-5============= */
 /* !============================ */
 .main-5 {
@@ -447,6 +463,7 @@ header .box span {
     border: 1px solid black;
     padding-top: 60px;
 }
+
 .main-5 .text {
     width: 387px;
     height: 34px;
@@ -458,40 +475,48 @@ header .box span {
     display: flex;
     gap: 5px;
 }
+
 .let {
-  width: 371px;
-  height: 520px ;
-  margin: auto;
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
+    width: 371px;
+    height: 520px;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
+
 .let1 {
-  width: 176px;
-  height: 257px;
+    width: 176px;
+    height: 257px;
 }
+
 .let1 img {
-  width: 175px;
-  height: 185px;
-  border-radius: 5px;
+    width: 175px;
+    height: 185px;
+    border-radius: 5px;
 }
+
 .let1 b {
-  margin-left: 25px;
+    margin-left: 25px;
 }
+
 .let1 p {
-  margin-left: 20px;
-  color: gray;
+    margin-left: 20px;
+    color: gray;
 }
+
 .let2 {
-  width: 176px;
-  height: 26px;
-  display: flex;
-  justify-content: space-evenly;
+    width: 176px;
+    height: 26px;
+    display: flex;
+    justify-content: space-evenly;
 }
+
 .let2 {
-  color: gray;
-  font-size: 25px;
+    color: gray;
+    font-size: 25px;
 }
+
 /* !==========footer======= */
 /* !======================= */
 footer {
@@ -500,6 +525,7 @@ footer {
     background-color: #101828;
     color: white;
 }
+
 footer .main-6 {
     width: 390px;
     height: 774px;
@@ -509,6 +535,7 @@ footer .main-6 {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .main-6 .text {
     width: 387px;
     height: 34px;
@@ -520,7 +547,8 @@ footer .main-6 .text span {
     display: flex;
     gap: 5px;
 }
-footer .main-6  .box5 {
+
+footer .main-6 .box5 {
     width: 356px;
     height: 640px;
     margin: auto;
@@ -529,6 +557,7 @@ footer .main-6  .box5 {
     justify-content: space-between;
 
 }
+
 footer .main-6 .box5 .email {
     width: 356px;
     height: 216px;
@@ -536,12 +565,14 @@ footer .main-6 .box5 .email {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .main-6 .box5 .email .bir {
     width: 356px;
     height: 93px;
-     display: flex;
+    display: flex;
     justify-content: space-between;
 }
+
 footer .main-6 .box5 .email .bir div {
     width: 167px;
     height: 93px;
@@ -549,10 +580,12 @@ footer .main-6 .box5 .email .bir div {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .main-6 .box5 .email .bir div small {
     font-size: 12px;
     color: gray;
 }
+
 /* *=======input */
 footer .box5 .input {
     width: 356px;
@@ -563,15 +596,17 @@ footer .box5 .input {
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+}
+
 footer .box5 .input .div {
     width: 314px;
     height: 326px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
+
 /* *b1 */
 footer .box5 .input .div .b1 {
     width: 314px;
@@ -579,6 +614,7 @@ footer .box5 .input .div .b1 {
     display: flex;
     justify-content: space-between;
 }
+
 footer .box5 .input .div .b1 div {
     width: 146px;
     height: 49px;
@@ -586,6 +622,7 @@ footer .box5 .input .div .b1 div {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .box5 .input .div .b1 div input {
     width: 146px;
     height: 31px;
@@ -595,9 +632,11 @@ footer .box5 .input .div .b1 div input {
     padding: 5px;
     border-radius: 5px;
 }
+
 footer .box5 .input .div .b1 div label {
     font-size: 13px;
 }
+
 /* *b2 */
 footer .box5 .input .div .b2 {
     width: 314px;
@@ -606,6 +645,7 @@ footer .box5 .input .div .b2 {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .box5 .input .div .b2 input {
     width: 314px;
     height: 31px;
@@ -613,9 +653,11 @@ footer .box5 .input .div .b2 input {
     padding: 10px;
     border-radius: 5px;
 }
+
 footer .box5 .input .div .b2 label {
     font-size: 13px;
 }
+
 /* *b3 */
 footer .box5 .input .div .b3 {
     width: 314px;
@@ -623,16 +665,19 @@ footer .box5 .input .div .b3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-} 
+}
+
 footer .box5 .input .div .b3 textarea {
     width: 314px;
     height: 82px;
     border: 1px solid gray;
     border-radius: 5px;
 }
+
 footer .box5 .input .div .b3 label {
     font-size: 13px;
 }
+
 /* *b4 */
 footer .box5 .input .div .b4 {
     width: 314px;
@@ -641,9 +686,11 @@ footer .box5 .input .div .b4 {
     gap: 10px;
     align-items: center;
 }
+
 footer .box5 .input .div .b4 p {
-    color: gray ;
+    color: gray;
 }
+
 /* *button */
 footer .box5 .input .div button {
     width: 314px;
@@ -653,6 +700,7 @@ footer .box5 .input .div button {
     border-radius: 5px;
     border: none;
 }
+
 footer .box5 .input .div button:hover {
     font-size: 20px;
     background-color: #243961;
