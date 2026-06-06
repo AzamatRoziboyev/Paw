@@ -377,7 +377,7 @@ header .box span {
 .main-4 .text {
     width: 387px;
     height: 34px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .main-4 .text span {
@@ -388,13 +388,54 @@ header .box span {
 .main-4 .box4 {
     width: 359px;
     height: 566px;
-    border: 1px solid red;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .main-4 .box4 h2 {
     width: 359px;
     height: 44px;
-    border: 1px solid black;
     display: flex;
     align-items: center;
+}
+.main-4 .box4 .eget {
+    width: 359px;
+    height: 457px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-4 .box4 .eget .p1 {
+    width: 359px;
+    height: 299px;
+    font-size: 18.5px;
+    color: gray;
+}
+.main-4 .box4 .eget div {
+    width: 359px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.main-4 .box4 .eget div h4 {
+    font-size: 23px;
+
+}
+.main-4 .box4 .eget div p {
+    font-size: 18px;
+}
+.main-4 .box4 button {
+    width: 104px;
+    height: 35px;
+    border: none;
+    background-color: #243961;
+    color: white;
+    border-radius: 5px;
+}
+.main-4 .box4 button:hover {
+    background-color: blue;
+    font-size: 17px;
 }
