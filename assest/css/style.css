@@ -525,6 +525,7 @@ footer {
     background-color: #101828;
     color: white;
 }
+
 /* !=========main-6========= */
 footer .main-6 {
     width: 390px;
@@ -705,6 +706,7 @@ footer .box5 .input .div button:hover {
     font-size: 20px;
     background-color: #243961;
 }
+
 /* !========main-7======= */
 footer .main-7 {
     width: 390px;
@@ -714,6 +716,7 @@ footer .main-7 {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .main-7 .join {
     width: 358px;
     height: 185px;
@@ -723,16 +726,20 @@ footer .main-7 .join {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .main-7 .join .div1 {
     width: 358px;
     height: 58px;
 }
+
 footer .main-7 .join .div1 h5 {
     font-size: 20px;
 }
+
 footer .main-7 .join .div1 p {
     color: rgb(143, 137, 137);
 }
+
 /* *div2 */
 footer .main-7 .join .div2 {
     width: 358px;
@@ -741,6 +748,7 @@ footer .main-7 .join .div2 {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .main-7 .join .div2 input {
     width: 358px;
     height: 41px;
@@ -750,6 +758,7 @@ footer .main-7 .join .div2 input {
     border: none;
     background-color: #D0D5DD;
 }
+
 footer .main-7 .join .div2 button {
     width: 358px;
     height: 39px;
@@ -758,6 +767,7 @@ footer .main-7 .join .div2 button {
     font-size: 20px;
     background-color: white;
 }
+
 /* *box6 */
 footer .main-7 .box6 {
     width: 359px;
@@ -768,6 +778,7 @@ footer .main-7 .box6 {
     justify-content: space-between;
 
 }
+
 footer .main-7 .box6 .paws {
     width: 359px;
     height: 100px;
@@ -775,15 +786,18 @@ footer .main-7 .box6 .paws {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .main-7 .box6 .paws span {
     font-size: 25px;
     display: flex;
     gap: 5px;
 }
+
 footer .main-7 .box6 .paws p {
     font-size: 20px;
     color: rgb(180, 171, 171);
 }
+
 /* *shop */
 footer .main-7 .box6 .shop {
     width: 359px;
@@ -791,6 +805,7 @@ footer .main-7 .box6 .shop {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
 footer .main-7 .box6 .shop .pet {
     width: 144px;
     height: 204px;
@@ -798,6 +813,7 @@ footer .main-7 .box6 .shop .pet {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .main-7 .box6 .shop .pet div {
     width: 144px;
     height: 168px;
@@ -806,6 +822,7 @@ footer .main-7 .box6 .shop .pet div {
     justify-content: space-between;
     color: rgb(175, 164, 164);
 }
+
 /* *footer-button */
 footer .main-7 .footer-bottom {
     width: 359px;
@@ -817,10 +834,8 @@ footer .main-7 .footer-bottom {
     align-items: center;
     border-top: 1px solid gray;
 }
+
 footer .main-7 .footer-bottom p {
-       color: rgb(180, 171, 171);
-       font-size: 20px;
+    color: rgb(180, 171, 171);
+    font-size: 20px;
 }
-
-
-
