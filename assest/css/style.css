@@ -714,7 +714,7 @@ footer .main-7 {
     flex-direction: column;
     justify-content: space-between;
 }
-/* footer .main-7 .join {
+footer .main-7 .join {
     width: 358px;
     height: 185px;
     margin: auto;
@@ -722,7 +722,7 @@ footer .main-7 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-} */
+}
 footer .main-7 .join .div1 {
     width: 358px;
     height: 58px;
