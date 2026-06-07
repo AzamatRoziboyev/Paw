@@ -525,7 +525,7 @@ footer {
     background-color: #101828;
     color: white;
 }
-
+/* !=========main-6========= */
 footer .main-6 {
     width: 390px;
     height: 774px;
@@ -704,4 +704,55 @@ footer .box5 .input .div button {
 footer .box5 .input .div button:hover {
     font-size: 20px;
     background-color: #243961;
+}
+/* !========main-7======= */
+footer .main-7 {
+    width: 390px;
+    height: 1266px;
+    border: 1px solid red;
+}
+footer .main-7 .join {
+    width: 358px;
+    height: 185px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .main-7 .join .div1 {
+    width: 358px;
+    height: 58px;
+}
+footer .main-7 .join .div1 h5 {
+    font-size: 20px;
+}
+footer .main-7 .join .div1 p {
+    color: rgb(143, 137, 137);
+}
+/* *div2 */
+footer .main-7 .join .div2 {
+    width: 358px;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .main-7 .join .div2 input {
+    width: 358px;
+    height: 41px;
+    border-radius: 6px;
+    padding-left: 15px;
+    font-size: 20px;
+    border: none;
+    background-color: #D0D5DD;
+}
+footer .main-7 .join .div2 button {
+    width: 358px;
+    height: 39px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    background-color: white;
 }
