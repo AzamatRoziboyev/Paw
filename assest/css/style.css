@@ -10,6 +10,9 @@
     height: 6480px;
     margin: auto;
     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
@@ -17,6 +20,7 @@ header {
     width: 390px;
     height: 609px;
     background-image: url(/assest/img/kuchuk.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
