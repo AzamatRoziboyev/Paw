@@ -820,7 +820,7 @@ footer .main-7 .box6 .shop .pet div {
 }
 
 /* *footer-button */
-footer .main-7 .footer-bottom {
+/* footer .main-7 .footer-bottom {
     width: 359px;
     height: 58px;
     margin: auto;
@@ -829,7 +829,7 @@ footer .main-7 .footer-bottom {
     justify-content: center;
     align-items: center;
     border-top: 1px solid gray;
-}
+} */
 
 footer .main-7 .footer-bottom p {
     color: rgb(180, 171, 171);
